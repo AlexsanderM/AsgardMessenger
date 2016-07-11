@@ -2,22 +2,30 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormEnterPhone">
   <grid id="27dc6" binding="formEnterPhone" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="955" height="610"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <grid id="cc8c7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="cc8c7" binding="topPanek" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints/>
-        <properties/>
+        <properties>
+          <background color="-5395065"/>
+          <maximumSize width="2147483647" height="35"/>
+          <minimumSize width="240" height="35"/>
+          <preferredSize width="240" height="35"/>
+        </properties>
         <border type="none"/>
         <children/>
       </grid>
-      <grid id="224fa" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-        <margin top="0" left="0" bottom="0" right="0"/>
+      <grid id="224fa" binding="centrPanel" layout-manager="GridBagLayout">
         <constraints/>
-        <properties/>
+        <properties>
+          <background color="-3485494"/>
+          <minimumSize width="700" height="600"/>
+          <preferredSize width="700" height="600"/>
+        </properties>
         <border type="none"/>
         <children/>
       </grid>

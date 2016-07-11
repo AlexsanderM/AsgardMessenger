@@ -1,8 +1,19 @@
 import javax.swing.*;
 
-/**
- * Created by Sasha on 10.07.2016.
- */
 public class FormEnterPhone {
     private JPanel formEnterPhone;
+    private JPanel topPanek;
+    private JPanel centrPanel;
+
+    FormEnterPhone () {
+
+    }
+
+    public JPanel getFormEnterPhone() {
+        return formEnterPhone;
+    }
+
+    public JPanel getTopPanek() {
+        return topPanek;
+    }
 }

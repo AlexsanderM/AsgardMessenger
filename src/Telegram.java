@@ -5,9 +5,7 @@ import org.javagram.response.AuthSentCode;
 
 import java.io.IOException;
 
-/**
- * Created by Sasha on 10.07.2016.
- */
+
 public class Telegram {
     private TelegramApiBridge bridge;
     private AuthCheckedPhone checkedPhone;
